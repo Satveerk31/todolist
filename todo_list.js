@@ -9,7 +9,6 @@ const clearCompletedBtn = document.getElementById("clear-completed");
 let todos = JSON.parse(localStorage.getItem("todos") || "[]");
 let editingId = null;
 
-// ----- HELPERS -----
 function save() {
   localStorage.setItem("todos", JSON.stringify(todos));
 }
@@ -153,3 +152,4 @@ function render() {
 
 // initial render
 render();
+
