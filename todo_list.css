@@ -1,0 +1,56 @@
+:root{
+align-items:center;
+justify-content:center;
+padding:24px;
+}
+
+
+.app{
+width:100%;
+max-width:720px;
+background:var(--card);
+border-radius:12px;
+box-shadow:0 10px 30px rgba(15,23,42,0.06);
+padding:24px;
+}
+
+
+h1{margin:0 0 12px 0}
+
+
+.todo-form{display:flex;gap:8px;margin-bottom:12px}
+.todo-form input{
+flex:1;padding:10px 12px;border:1px solid #e6e9f2;border-radius:8px;font-size:16px
+}
+.todo-form button{
+padding:10px 14px;border:none;background:var(--accent);color:white;border-radius:8px;cursor:pointer
+}
+
+
+.controls{display:flex;gap:8px;align-items:center;margin-bottom:12px}
+.controls select{padding:8px;border-radius:8px;border:1px solid #e6e9f2}
+.controls button{padding:8px 10px;border-radius:8px;border:1px solid #e6e9f2;background:transparent;cursor:pointer}
+
+
+.todo-list{list-style:none;padding:0;margin:0}
+.todo-item{
+display:flex;align-items:center;justify-content:space-between;padding:10px;border-radius:8px;border:1px solid #f1f5f9;margin-bottom:8px;background:linear-gradient(180deg,#fff,#fbfdff)
+}
+.todo-left{display:flex;align-items:center;gap:12px;flex:1}
+.todo-left input[type="checkbox"]{width:18px;height:18px}
+.todo-text{font-size:16px}
+.todo-text.completed{text-decoration:line-through;color:var(--muted)}
+
+
+.todo-actions{display:flex;gap:8px}
+.action-btn{border:none;background:transparent;cursor:pointer;padding:6px;border-radius:6px}
+.action-btn:hover{background:#f3f4f6}
+
+
+.hint{color:var(--muted);font-size:13px;margin-top:12px}
+
+
+@media (max-width:520px){
+.app{padding:16px}
+.todo-form button{padding:10px}
+}
