@@ -78,7 +78,6 @@ h1{margin:0 0 12px 0}
   padding:0;
   margin:0;
 }
-
 .todo-item{
   display:flex;
   align-items:center;
@@ -89,7 +88,6 @@ h1{margin:0 0 12px 0}
   margin-bottom:8px;
   background:linear-gradient(180deg,#fff,#fbfdff);
 }
-
 .todo-left{
   display:flex;
   align-items:center;
