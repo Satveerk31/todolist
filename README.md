@@ -6,7 +6,7 @@ All tasks are saved automatically in the browser using **localStorage**.
 
 ---
 
-## 🚀 Features
+##  Features
 
 ### 📝 Task Management
 - Add new tasks  
@@ -21,7 +21,7 @@ All tasks are saved automatically in the browser using **localStorage**.
 - View **Completed Tasks**  
 - Clear all completed tasks in one click  
 
-### 🎨 User Interface
+###  User Interface
 - Clean, modern, minimalistic UI  
 - Responsive layout — works on all screen sizes  
 - Smooth hover & focus effects  
