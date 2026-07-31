@@ -67,6 +67,6 @@ You can run this project in **two easy ways**:
 
 ---
 
-## ✔ Project Status  
+## Project Status  
 Fully functional and ready to use.
 
